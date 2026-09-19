@@ -1,0 +1,68 @@
+{
+  "rows": 500,
+  "columns": [
+    "engine",
+    "cylandr",
+    "fuelcomb",
+    "out1"
+  ],
+  "missing_values": {
+    "engine": 0,
+    "cylandr": 0,
+    "fuelcomb": 0,
+    "out1": 0
+  },
+  "co2_output": {
+    "total_first_500": 134013,
+    "average_first_500": 268.026,
+    "min": 110,
+    "max": 488
+  },
+  "correlation_with_co2_output": {
+    "engine": 0.8783,
+    "cylandr": 0.8525,
+    "fuelcomb": 0.8583
+  },
+  "descriptive_statistics": {
+    "engine": {
+      "count": 500.0,
+      "mean": 3.6,
+      "std": 1.478,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.6,
+      "75%": 5.0,
+      "max": 6.8
+    },
+    "cylandr": {
+      "count": 500.0,
+      "mean": 6.132,
+      "std": 1.832,
+      "min": 4.0,
+      "25%": 4.0,
+      "50%": 6.0,
+      "75%": 8.0,
+      "max": 12.0
+    },
+    "fuelcomb": {
+      "count": 500.0,
+      "mean": 12.477,
+      "std": 3.943,
+      "min": 4.8,
+      "25%": 9.5,
+      "50%": 11.65,
+      "75%": 14.8,
+      "max": 25.8
+    },
+    "out1": {
+      "count": 500.0,
+      "mean": 268.026,
+      "std": 67.1,
+      "min": 110.0,
+      "25%": 217.0,
+      "50%": 260.0,
+      "75%": 317.0,
+      "max": 488.0
+    }
+  }
+}
