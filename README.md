@@ -4,6 +4,33 @@
 
 در این پروژه، داده‌های مربوط به انتشار CO₂ با استفاده از کتابخانه‌های رایج تحلیل داده پردازش شده و اطلاعات به‌دست‌آمده در قالب آمار توصیفی و نمودارهای قابل فهم ارائه می‌شوند.
 
+## Technologies
+
+- Python
+- Pandas برای خواندن و تحلیل داده‌ها
+- Matplotlib برای رسم نمودارها
+- Pytest برای تست کد
+- Jupyter Notebook برای نگهداری نسخهٔ اولیهٔ تحلیل
+
+## Project Structure
+
+```text
+co2-data-analysis/
+├── data/
+│   └── co2.csv                 # دیتاست خام
+├── notebooks/
+│   └── co2_original.ipynb      # نوت‌بوک اولیه
+├── outputs/                    # گزارش‌ها و نمودارهای تولیدشده
+├── src/
+│   ├── analysis.py             # تحلیل و محاسبهٔ آمار
+│   └── visualize.py            # ساخت نمودارها
+├── tests/
+│   └── test_analysis.py        # تست‌های پروژه
+├── requirements.txt
+├── requirements-dev.txt
+└── README.md
+```
+
 ## داده‌ها
 
 فایل خام در `data/co2.csv` قرار دارد و ستون‌های اصلی آن بدون تغییر حفظ شده‌اند:
